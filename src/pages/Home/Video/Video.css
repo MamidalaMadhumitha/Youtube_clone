@@ -1,0 +1,47 @@
+.play-container{
+    background-color: aliceblue;
+    padding-left: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex; 
+    justify-content: space-between; 
+     flex-wrap: wrap;   
+}
+
+@media (max-width:900px){
+    .play-container{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+}
+
+@media (max-width:700px ) {
+    .play-container {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        width: 100%;
+        /* padding-left: 8%;
+        padding-right: 8%; */
+      
+    }  
+}
+
+@media (max-width:500px ) {
+    .play-container {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
+      
+    }  
+}
+
+     
+  

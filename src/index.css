@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman';
+}
+a{
+  text-decoration: none;
+  
+}
+
+img{
+  cursor: pointer;
+}
+.flex-div{
+ display: flex;
+ align-items: center;
+}
+
+.Error-msg{
+  margin: 90px;
+  text-align: center;
+  color: rgb(182, 6, 6);
+  
+}
+.error-status{
+  margin: 20px;
+}
